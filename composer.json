@@ -1,0 +1,46 @@
+{
+    "name": "drupal/panopoly-framework",
+    "type": "project",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://drupal-packagist.org"
+        },
+        {
+            "type": "vcs",
+            "url": "file:///Users/will/projects/settings_compile"
+        }
+    ],
+    "require": {
+        "drupal/panopoly": "7.*",
+        "drupal/tangler": "~0.1",
+        "drush/drush": "6.*",
+        "winmillwill/settings_compile": "dev-master",
+        "incenteev/composer-parameter-handler": "2.1.*"
+    },
+    "scripts": {
+        "post-install-cmd": [
+          "Drupal\\Tangler\\ScriptHandler::postUpdate",
+          "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
+          "vendor/bin/settings_compile config.yml www/sites/default/settings.php"
+        ],
+        "post-update-cmd": [
+          "Drupal\\Tangler\\ScriptHandler::postUpdate",
+          "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
+          "vendor/bin/settings_compile config.yml www/sites/default/settings.php"
+        ]
+    },
+    "minimum-stability": "alpha",
+    "extra": {
+        "installer-paths": {
+            "www": ["type:drupal-core"],
+            "www/sites/all/modules/{$name}": ["type:drupal-module"],
+            "www/sites/all/themes/{$name}": ["type:drupal-theme"],
+            "www/profiles/{$name}": ["type:drupal-profile"]
+        },
+        "incenteev-parameters": {
+            "file": "config.yml",
+            "parameter-key": "drupal"
+        }
+    }
+}
