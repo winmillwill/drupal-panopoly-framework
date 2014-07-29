@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "1298b911eff0930ed32d3ff483ff64fa",
+    "hash": "9d9e68ec36b5610d7ffc53578bd13a7f",
     "packages": [
         {
             "name": "composer/composer",
@@ -77,154 +77,6 @@
             "time": "2014-01-06 18:39:59"
         },
         {
-            "name": "composer/installers",
-            "version": "v1.0.14",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/composer/installers.git",
-                "reference": "8281faa96186b18db9d53e8dbeb2d549c66d9cdc"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/composer/installers/zipball/8281faa96186b18db9d53e8dbeb2d549c66d9cdc",
-                "reference": "8281faa96186b18db9d53e8dbeb2d549c66d9cdc",
-                "shasum": ""
-            },
-            "replace": {
-                "roundcube/plugin-installer": "*",
-                "shama/baton": "*"
-            },
-            "require-dev": {
-                "composer/composer": "1.0.*@dev",
-                "phpunit/phpunit": "4.1.*"
-            },
-            "type": "composer-installer",
-            "extra": {
-                "class": "Composer\\Installers\\Installer",
-                "branch-alias": {
-                    "dev-master": "1.0-dev"
-                }
-            },
-            "autoload": {
-                "psr-0": {
-                    "Composer\\Installers\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Kyle Robinson Young",
-                    "email": "kyle@dontkry.com",
-                    "homepage": "https://github.com/shama",
-                    "role": "Developer"
-                }
-            ],
-            "description": "A multi-framework Composer library installer",
-            "homepage": "http://composer.github.com/installers/",
-            "keywords": [
-                "Craft",
-                "Dolibarr",
-                "Hurad",
-                "MODX Evo",
-                "OXID",
-                "WolfCMS",
-                "agl",
-                "annotatecms",
-                "bitrix",
-                "cakephp",
-                "codeigniter",
-                "concrete5",
-                "croogo",
-                "drupal",
-                "elgg",
-                "fuelphp",
-                "installer",
-                "joomla",
-                "kohana",
-                "laravel",
-                "lithium",
-                "magento",
-                "mako",
-                "mediawiki",
-                "modulework",
-                "moodle",
-                "phpbb",
-                "piwik",
-                "ppi",
-                "roundcube",
-                "shopware",
-                "silverstripe",
-                "symfony",
-                "typo3",
-                "wordpress",
-                "zend",
-                "zikula"
-            ],
-            "time": "2014-06-18 15:29:19"
-        },
-        {
-            "name": "drupal/admin",
-            "version": "7.2.0-beta3",
-            "source": {
-                "type": "git",
-                "url": "http://git.drupal.org/project/admin",
-                "reference": "f200c1413384570de8d015b0b21ce3d855d52ca5"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "http://ftp.drupal.org/files/projects/admin-7.x-2.0-beta3.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0",
-                "drupal/drupal": "7.*"
-            },
-            "type": "drupal-module",
-            "extra": {
-                "branch-alias": {
-                    "dev-7.x-2.x": "7.2.x"
-                }
-            },
-            "notification-url": "http://drupal-packagist.org/downloads/",
-            "description": "UI helpers for Drupal admins and managers."
-        },
-        {
-            "name": "drupal/admin_menu",
-            "version": "7.3.0-rc4",
-            "source": {
-                "type": "git",
-                "url": "http://git.drupal.org/project/admin_menu",
-                "reference": "fc307c1abcbb035ddb88371d7e05810358ecf5ae"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "http://ftp.drupal.org/files/projects/admin_menu-7.x-3.0-rc4.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0",
-                "drupal/drupal": "7.*",
-                "drupal/system": ">0.7.10"
-            },
-            "replace": {
-                "drupal/admin_devel": "self.version",
-                "drupal/admin_menu_toolbar": "self.version"
-            },
-            "type": "drupal-module",
-            "extra": {
-                "branch-alias": {
-                    "dev-7.x-3.x": "7.3.x"
-                }
-            },
-            "notification-url": "http://drupal-packagist.org/downloads/",
-            "description": "Provides a dropdown menu to most administrative tasks and other common destinations (to users with the proper permissions)."
-        },
-        {
             "name": "drupal/admin_views",
             "version": "7.1.3",
             "source": {
@@ -239,7 +91,6 @@
                 "shasum": null
             },
             "require": {
-                "composer/installers": "~1.0",
                 "drupal/drupal": "7.*",
                 "drupal/views": "7.*",
                 "drupal/views_bulk_operations": ">=7.3.2"
@@ -247,10 +98,9 @@
             "type": "drupal-module",
             "extra": {
                 "branch-alias": {
-                    "dev-7.x-1.x": "7.1.x"
+                    "dev-7.x-1.x": "7.1.x-dev"
                 }
             },
-            "notification-url": "http://drupal-packagist.org/downloads/",
             "description": "Replaces all system object management pages in Drupal core with real views."
         },
         {
@@ -268,7 +118,6 @@
                 "shasum": null
             },
             "require": {
-                "composer/installers": "~1.0",
                 "drupal/drupal": "7.*"
             },
             "replace": {
@@ -277,38 +126,35 @@
             "type": "drupal-module",
             "extra": {
                 "branch-alias": {
-                    "dev-7.x-1.x": "7.1.x"
+                    "dev-7.x-1.x": "7.1.x-dev"
                 }
             },
-            "notification-url": "http://drupal-packagist.org/downloads/",
             "description": "Allow advanced help and documentation."
         },
         {
             "name": "drupal/apps",
-            "version": "7.1.0-beta7",
+            "version": "7.1.0-beta10",
             "source": {
                 "type": "git",
                 "url": "http://git.drupal.org/project/apps",
-                "reference": "d74715eb53f9b5b1707d1a97e8e291fe85fc93e5"
+                "reference": "c1ea07cc760b0e8f4f931759928fabd83aed90e8"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://ftp.drupal.org/files/projects/apps-7.x-1.0-beta7.zip",
+                "url": "http://ftp.drupal.org/files/projects/apps-7.x-1.0-beta10.zip",
                 "reference": null,
                 "shasum": null
             },
             "require": {
-                "composer/installers": "~1.0",
                 "drupal/drupal": "7.*",
                 "drupal/update": "7.*"
             },
             "type": "drupal-module",
             "extra": {
                 "branch-alias": {
-                    "dev-7.x-1.x": "7.1.x"
+                    "dev-7.x-1.x": "7.1.x-dev"
                 }
             },
-            "notification-url": "http://drupal-packagist.org/downloads/",
             "description": "Provides Interface for Install Apps from A drupal app server"
         },
         {
@@ -326,16 +172,14 @@
                 "shasum": null
             },
             "require": {
-                "composer/installers": "~1.0",
                 "drupal/drupal": "7.*"
             },
             "type": "drupal-module",
             "extra": {
                 "branch-alias": {
-                    "dev-7.x-1.x": "7.1.x"
+                    "dev-7.x-1.x": "7.1.x-dev"
                 }
             },
-            "notification-url": "http://drupal-packagist.org/downloads/",
             "description": "UI and other backports from Drupal 8."
         },
         {
@@ -353,17 +197,15 @@
                 "shasum": null
             },
             "require": {
-                "composer/installers": "~1.0",
                 "drupal/ctools": "7.*",
                 "drupal/drupal": "7.*"
             },
             "type": "drupal-module",
             "extra": {
                 "branch-alias": {
-                    "dev-7.x-1.x": "7.1.x"
+                    "dev-7.x-1.x": "7.1.x-dev"
                 }
             },
-            "notification-url": "http://drupal-packagist.org/downloads/",
             "description": "Manage breakpoints"
         },
         {
@@ -381,16 +223,14 @@
                 "shasum": null
             },
             "require": {
-                "composer/installers": "~1.0",
                 "drupal/drupal": "7.*"
             },
             "type": "drupal-module",
             "extra": {
                 "branch-alias": {
-                    "dev-7.x-1.x": "7.1.x"
+                    "dev-7.x-1.x": "7.1.x-dev"
                 }
             },
-            "notification-url": "http://drupal-packagist.org/downloads/",
             "description": "Filter to parse [caption] tags and allow image alignment."
         },
         {
@@ -408,7 +248,6 @@
                 "shasum": null
             },
             "require": {
-                "composer/installers": "~1.0",
                 "drupal/ctools": "7.*",
                 "drupal/drupal": "7.*"
             },
@@ -419,10 +258,9 @@
             "type": "drupal-module",
             "extra": {
                 "branch-alias": {
-                    "dev-7.x-3.x": "7.3.x"
+                    "dev-7.x-3.x": "7.3.x-dev"
                 }
             },
-            "notification-url": "http://drupal-packagist.org/downloads/",
             "description": "Provide modules with a cache that lasts for a single page request."
         },
         {
@@ -440,7 +278,6 @@
                 "shasum": null
             },
             "require": {
-                "composer/installers": "~1.0",
                 "drupal/advanced_help": "7.*",
                 "drupal/color": "7.*",
                 "drupal/drupal": "7.*",
@@ -461,28 +298,26 @@
             "type": "drupal-module",
             "extra": {
                 "branch-alias": {
-                    "dev-7.x-1.x": "7.1.x"
+                    "dev-7.x-1.x": "7.1.x-dev"
                 }
             },
-            "notification-url": "http://drupal-packagist.org/downloads/",
             "description": "A library of helpful tools by Merlin of Chaos."
         },
         {
             "name": "drupal/date",
-            "version": "7.2.7",
+            "version": "7.2.8-beta1",
             "source": {
                 "type": "git",
                 "url": "http://git.drupal.org/project/date",
-                "reference": "8b82fae3d9f235a6babc1e44eac44f276380b7b6"
+                "reference": "a8edfd3fb03450afad5e1c1eb414dc3cac3a619e"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://ftp.drupal.org/files/projects/date-7.x-2.7.zip",
+                "url": "http://ftp.drupal.org/files/projects/date-7.x-2.8-beta1.zip",
                 "reference": null,
                 "shasum": null
             },
             "require": {
-                "composer/installers": "~1.0",
                 "drupal/context": "7.*",
                 "drupal/drupal": "7.*",
                 "drupal/features": "7.*",
@@ -504,10 +339,9 @@
             "type": "drupal-module",
             "extra": {
                 "branch-alias": {
-                    "dev-7.x-2.x": "7.2.x"
+                    "dev-7.x-2.x": "7.2.x-dev"
                 }
             },
-            "notification-url": "http://drupal-packagist.org/downloads/",
             "description": "Makes date/time fields available."
         },
         {
@@ -525,17 +359,15 @@
                 "shasum": null
             },
             "require": {
-                "composer/installers": "~1.0",
                 "drupal/date_popup": "7.*",
                 "drupal/drupal": "7.*"
             },
             "type": "drupal-module",
             "extra": {
                 "branch-alias": {
-                    "dev-7.x-1.x": "7.1.x"
+                    "dev-7.x-1.x": "7.1.x-dev"
                 }
             },
-            "notification-url": "http://drupal-packagist.org/downloads/",
             "description": "Provides a datepicker for the 'Authored on' field on node forms."
         },
         {
@@ -553,48 +385,16 @@
                 "shasum": null
             },
             "require": {
-                "composer/installers": "~1.0",
                 "drupal/drupal": "7.*",
                 "drupal/features": "7.*"
             },
             "type": "drupal-module",
             "extra": {
                 "branch-alias": {
-                    "dev-7.x-1.x": "7.1.x"
+                    "dev-7.x-1.x": "7.1.x-dev"
                 }
             },
-            "notification-url": "http://drupal-packagist.org/downloads/",
             "description": "Use features as default configuration without having to deal with overriden features."
-        },
-        {
-            "name": "drupal/defaultcontent",
-            "version": "7.1.0-alpha9",
-            "source": {
-                "type": "git",
-                "url": "http://git.drupal.org/project/defaultcontent",
-                "reference": "9a2cc5c0a5124eac43610e06cbce20fc195b3df5"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "http://ftp.drupal.org/files/projects/defaultcontent-7.x-1.0-alpha9.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0",
-                "drupal/ctools": "7.*",
-                "drupal/drupal": "7.*",
-                "drupal/features": "7.*",
-                "drupal/menu": "7.*"
-            },
-            "type": "drupal-module",
-            "extra": {
-                "branch-alias": {
-                    "dev-7.x-1.x": "7.1.x"
-                }
-            },
-            "notification-url": "http://drupal-packagist.org/downloads/",
-            "description": "Allows import/export of default content."
         },
         {
             "name": "drupal/devel",
@@ -611,7 +411,6 @@
                 "shasum": null
             },
             "require": {
-                "composer/installers": "~1.0",
                 "drupal/drupal": "7.*",
                 "drupal/menu": "7.*"
             },
@@ -622,23 +421,22 @@
             "type": "drupal-module",
             "extra": {
                 "branch-alias": {
-                    "dev-7.x-1.x": "7.1.x"
+                    "dev-7.x-1.x": "7.1.x-dev"
                 }
             },
-            "notification-url": "http://drupal-packagist.org/downloads/",
             "description": "Various blocks, pages, and functions for developers."
         },
         {
             "name": "drupal/drupal",
-            "version": "7.24.0",
+            "version": "7.28.0",
             "source": {
                 "type": "git",
                 "url": "http://git.drupal.org/project/drupal",
-                "reference": "95ca9b5406eac17364b1c4edacf4fd9e6957908b"
+                "reference": "23599090784700dea3675270d0eb242badf9fb28"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://ftp.drupal.org/files/projects/drupal-7.24.zip",
+                "url": "http://ftp.drupal.org/files/projects/drupal-7.28.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -678,8 +476,6 @@
                 "drupal/profile": "self.version",
                 "drupal/rdf": "self.version",
                 "drupal/search": "self.version",
-                "drupal/search_embedded_form": "self.version",
-                "drupal/search_extra_type": "self.version",
                 "drupal/seven": "self.version",
                 "drupal/shortcut": "self.version",
                 "drupal/standard": "self.version",
@@ -688,10 +484,6 @@
                 "drupal/syslog": "self.version",
                 "drupal/system": "self.version",
                 "drupal/taxonomy": "self.version",
-                "drupal/test_basetheme": "self.version",
-                "drupal/test_subtheme": "self.version",
-                "drupal/test_theme": "self.version",
-                "drupal/testing": "self.version",
                 "drupal/text": "self.version",
                 "drupal/toolbar": "self.version",
                 "drupal/tracker": "self.version",
@@ -703,41 +495,38 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-7.x-24.x": "7.24.x"
+                    "dev-7.x-": "7.x-dev"
                 }
             },
-            "notification-url": "http://drupal-packagist.org/downloads/",
             "description": "Handles general site configuration for administrators."
         },
         {
             "name": "drupal/entity",
-            "version": "7.1.0-beta2",
+            "version": "7.1.5",
             "source": {
                 "type": "git",
                 "url": "http://git.drupal.org/project/entity",
-                "reference": "4ea1bf647f470097f22a3d06a3afe0893c6bc206"
+                "reference": "967773ebfabd6789d60a282836dacb0fcff8dc70"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://ftp.drupal.org/files/projects/entity-7.x-1.0-beta2.zip",
+                "url": "http://ftp.drupal.org/files/projects/entity-7.x-1.5.zip",
                 "reference": null,
                 "shasum": null
             },
             "require": {
-                "composer/installers": "~1.0",
                 "drupal/drupal": "7.*"
             },
             "replace": {
-                "drupal/entity_metadata": "self.version"
+                "drupal/entity_token": "self.version"
             },
             "type": "drupal-module",
             "extra": {
                 "branch-alias": {
-                    "dev-7.x-1.x": "7.1.x"
+                    "dev-7.x-1.x": "7.1.x-dev"
                 }
             },
-            "notification-url": "http://drupal-packagist.org/downloads/",
-            "description": "CRUD API for entities."
+            "description": "Enables modules to work with any entity type and to provide entities."
         },
         {
             "name": "drupal/entityreference",
@@ -754,7 +543,6 @@
                 "shasum": null
             },
             "require": {
-                "composer/installers": "~1.0",
                 "drupal/ctools": "7.*",
                 "drupal/drupal": "7.*",
                 "drupal/entity": "7.*"
@@ -765,28 +553,26 @@
             "type": "drupal-module",
             "extra": {
                 "branch-alias": {
-                    "dev-7.x-1.x": "7.1.x"
+                    "dev-7.x-1.x": "7.1.x-dev"
                 }
             },
-            "notification-url": "http://drupal-packagist.org/downloads/",
             "description": "Provides a field that can reference other entities."
         },
         {
             "name": "drupal/facetapi",
-            "version": "7.1.3",
+            "version": "7.1.4",
             "source": {
                 "type": "git",
                 "url": "http://git.drupal.org/project/facetapi",
-                "reference": "ed38b53f9413a2237d6ed40f7ee45a1e9e67a302"
+                "reference": "3a2287b349d275fe7f572b0c5320e8c9b21428aa"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://ftp.drupal.org/files/projects/facetapi-7.x-1.3.zip",
+                "url": "http://ftp.drupal.org/files/projects/facetapi-7.x-1.4.zip",
                 "reference": null,
                 "shasum": null
             },
             "require": {
-                "composer/installers": "~1.0",
                 "drupal/ctools": "7.*",
                 "drupal/drupal": "7.*"
             },
@@ -796,10 +582,9 @@
             "type": "drupal-module",
             "extra": {
                 "branch-alias": {
-                    "dev-7.x-1.x": "7.1.x"
+                    "dev-7.x-1.x": "7.1.x-dev"
                 }
             },
-            "notification-url": "http://drupal-packagist.org/downloads/",
             "description": "An abstracted facet API that can be used by various search backends."
         },
         {
@@ -817,18 +602,16 @@
                 "shasum": null
             },
             "require": {
-                "composer/installers": "~1.0",
-                "drupal/ctools": ">=0.1.4",
+                "drupal/ctools": ">=7.1.4",
                 "drupal/drupal": "7.*",
                 "drupal/entity": "7.*"
             },
             "type": "drupal-module",
             "extra": {
                 "branch-alias": {
-                    "dev-7.x-1.x": "7.1.x"
+                    "dev-7.x-1.x": "7.1.x-dev"
                 }
             },
-            "notification-url": "http://drupal-packagist.org/downloads/",
             "description": "Adds a contextual link to Field API Panel Panes to edit that field value."
         },
         {
@@ -846,16 +629,14 @@
                 "shasum": null
             },
             "require": {
-                "composer/installers": "~1.0",
                 "drupal/drupal": "7.*"
             },
             "type": "drupal-module",
             "extra": {
                 "branch-alias": {
-                    "dev-7.x-2.x": "7.2.x"
+                    "dev-7.x-2.x": "7.2.x-dev"
                 }
             },
-            "notification-url": "http://drupal-packagist.org/downloads/",
             "description": "Provides feature management for Drupal."
         },
         {
@@ -873,7 +654,6 @@
                 "shasum": null
             },
             "require": {
-                "composer/installers": "~1.0",
                 "drupal/ctools": "7.*",
                 "drupal/drupal": "7.*",
                 "drupal/field": "7.*"
@@ -881,10 +661,9 @@
             "type": "drupal-module",
             "extra": {
                 "branch-alias": {
-                    "dev-7.x-1.x": "7.1.x"
+                    "dev-7.x-1.x": "7.1.x-dev"
                 }
             },
-            "notification-url": "http://drupal-packagist.org/downloads/",
             "description": "Provides the ability to group your fields on both form and display."
         },
         {
@@ -902,7 +681,6 @@
                 "shasum": null
             },
             "require": {
-                "composer/installers": "~1.0",
                 "drupal/drupal": "7.*",
                 "drupal/panels": "7.*",
                 "drupal/views": "7.*"
@@ -910,10 +688,9 @@
             "type": "drupal-module",
             "extra": {
                 "branch-alias": {
-                    "dev-7.x-1.x": "7.1.x"
+                    "dev-7.x-1.x": "7.1.x-dev"
                 }
             },
-            "notification-url": "http://drupal-packagist.org/downloads/",
             "description": "Allow the creation of fieldable panels pane entities."
         },
         {
@@ -931,21 +708,71 @@
                 "shasum": null
             },
             "require": {
-                "composer/installers": "~1.0",
                 "drupal/ctools": "7.*",
                 "drupal/drupal": "7.*",
                 "drupal/field": "7.*",
                 "drupal/file": "7.*",
-                "drupal/system": ">=0.7.9"
+                "drupal/system": ">=7.7.9"
             },
             "type": "drupal-module",
             "extra": {
                 "branch-alias": {
-                    "dev-7.x-2.x": "7.2.x"
+                    "dev-7.x-2.x": "7.2.x-dev"
                 }
             },
-            "notification-url": "http://drupal-packagist.org/downloads/",
             "description": "Extends Drupal file entities to be fieldable and viewable."
+        },
+        {
+            "name": "drupal/i18n",
+            "version": "7.1.5",
+            "source": {
+                "type": "git",
+                "url": "http://git.drupal.org/project/i18n",
+                "reference": "203b604fc0a24ad1ee81cfdf094c8e0340ca23a3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://ftp.drupal.org/files/projects/i18n-7.x-1.5.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "drupal/block": "7.*",
+                "drupal/contact": "7.*",
+                "drupal/drupal": "7.*",
+                "drupal/field": "7.*",
+                "drupal/forum": "7.*",
+                "drupal/locale": "7.*",
+                "drupal/menu": "7.*",
+                "drupal/taxonomy": "7.*",
+                "drupal/translation": "7.*",
+                "drupal/variable": "7.*",
+                "drupal/variable_realm": "7.*",
+                "drupal/variable_store": "7.*"
+            },
+            "replace": {
+                "drupal/i18n_block": "self.version",
+                "drupal/i18n_contact": "self.version",
+                "drupal/i18n_field": "self.version",
+                "drupal/i18n_forum": "self.version",
+                "drupal/i18n_menu": "self.version",
+                "drupal/i18n_node": "self.version",
+                "drupal/i18n_path": "self.version",
+                "drupal/i18n_redirect": "self.version",
+                "drupal/i18n_select": "self.version",
+                "drupal/i18n_string": "self.version",
+                "drupal/i18n_sync": "self.version",
+                "drupal/i18n_taxonomy": "self.version",
+                "drupal/i18n_translation": "self.version",
+                "drupal/i18n_variable": "self.version"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-7.x-1.x": "7.1.x-dev"
+                }
+            },
+            "description": "Extends Drupal support for multilingual features."
         },
         {
             "name": "drupal/image_resize_filter",
@@ -962,16 +789,14 @@
                 "shasum": null
             },
             "require": {
-                "composer/installers": "~1.0",
                 "drupal/drupal": "7.*"
             },
             "type": "drupal-module",
             "extra": {
                 "branch-alias": {
-                    "dev-7.x-1.x": "7.1.x"
+                    "dev-7.x-1.x": "7.1.x-dev"
                 }
             },
-            "notification-url": "http://drupal-packagist.org/downloads/",
             "description": "Filter to automatically scale images to their height and width dimensions."
         },
         {
@@ -989,16 +814,14 @@
                 "shasum": null
             },
             "require": {
-                "composer/installers": "~1.0",
                 "drupal/drupal": "7.*"
             },
             "type": "drupal-module",
             "extra": {
                 "branch-alias": {
-                    "dev-7.x-2.x": "7.2.x"
+                    "dev-7.x-2.x": "7.2.x-dev"
                 }
             },
-            "notification-url": "http://drupal-packagist.org/downloads/",
             "description": "Update jQuery and jQuery UI to a more recent version."
         },
         {
@@ -1016,20 +839,15 @@
                 "shasum": null
             },
             "require": {
-                "composer/installers": "~1.0",
                 "drupal/drupal": "7.*",
-                "drupal/system": ">=0.7.11"
-            },
-            "replace": {
-                "drupal/example_info_file": "self.version"
+                "drupal/system": ">=7.7.11"
             },
             "type": "drupal-module",
             "extra": {
                 "branch-alias": {
-                    "dev-7.x-2.x": "7.2.x"
+                    "dev-7.x-2.x": "7.2.x-dev"
                 }
             },
-            "notification-url": "http://drupal-packagist.org/downloads/",
             "description": "Allows version-dependent and shared usage of external libraries."
         },
         {
@@ -1047,34 +865,31 @@
                 "shasum": null
             },
             "require": {
-                "composer/installers": "~1.0",
                 "drupal/drupal": "7.*"
             },
             "type": "drupal-module",
             "extra": {
                 "branch-alias": {
-                    "dev-7.x-1.x": "7.1.x"
+                    "dev-7.x-1.x": "7.1.x-dev"
                 }
             },
-            "notification-url": "http://drupal-packagist.org/downloads/",
             "description": "Defines simple link field types."
         },
         {
             "name": "drupal/linkit",
-            "version": "7.2.6",
+            "version": "7.3.1",
             "source": {
                 "type": "git",
                 "url": "http://git.drupal.org/project/linkit",
-                "reference": "43566580eae0a34cd1c4bc641ac5da0e2571d63a"
+                "reference": "1545562acaa235fc0652cf187d2860cd9a4192b1"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://ftp.drupal.org/files/projects/linkit-7.x-2.6.zip",
+                "url": "http://ftp.drupal.org/files/projects/linkit-7.x-3.1.zip",
                 "reference": null,
                 "shasum": null
             },
             "require": {
-                "composer/installers": "~1.0",
                 "drupal/ctools": "7.*",
                 "drupal/drupal": "7.*",
                 "drupal/entity": "7.*"
@@ -1082,11 +897,36 @@
             "type": "drupal-module",
             "extra": {
                 "branch-alias": {
-                    "dev-7.x-2.x": "7.2.x"
+                    "dev-7.x-3.x": "7.3.x-dev"
                 }
             },
-            "notification-url": "http://drupal-packagist.org/downloads/",
-            "description": "Provides an easy interface for inserting links to internal content, files and external pages by providing autocomplete search for several WYSIWYG-editors."
+            "description": "Provides an easy interface for inserting links."
+        },
+        {
+            "name": "drupal/manualcrop",
+            "version": "7.1.4",
+            "source": {
+                "type": "git",
+                "url": "http://git.drupal.org/project/manualcrop",
+                "reference": "07b61c55a9bf04f023d78d1ff2a7f9327661bce2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://ftp.drupal.org/files/projects/manualcrop-7.x-1.4.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "drupal/drupal": "7.*",
+                "drupal/image": ">=7.7.8"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-7.x-1.x": "7.1.x-dev"
+                }
+            },
+            "description": "Lets you manually crop an image based upon the image style effects."
         },
         {
             "name": "drupal/media",
@@ -1103,7 +943,6 @@
                 "shasum": null
             },
             "require": {
-                "composer/installers": "~1.0",
                 "drupal/drupal": "7.*",
                 "drupal/file_entity": "7.*",
                 "drupal/image": "7.*",
@@ -1118,10 +957,9 @@
             "type": "drupal-module",
             "extra": {
                 "branch-alias": {
-                    "dev-7.x-2.x": "7.2.x"
+                    "dev-7.x-2.x": "7.2.x-dev"
                 }
             },
-            "notification-url": "http://drupal-packagist.org/downloads/",
             "description": "Provides the core Media API"
         },
         {
@@ -1139,17 +977,15 @@
                 "shasum": null
             },
             "require": {
-                "composer/installers": "~1.0",
                 "drupal/drupal": "7.*",
                 "drupal/media_internet": "7.*"
             },
             "type": "drupal-module",
             "extra": {
                 "branch-alias": {
-                    "dev-7.x-2.x": "7.2.x"
+                    "dev-7.x-2.x": "7.2.x-dev"
                 }
             },
-            "notification-url": "http://drupal-packagist.org/downloads/",
             "description": "Adds Vimeo as a supported media provider."
         },
         {
@@ -1167,17 +1003,15 @@
                 "shasum": null
             },
             "require": {
-                "composer/installers": "~1.0",
                 "drupal/drupal": "7.*",
                 "drupal/media_internet": "7.*"
             },
             "type": "drupal-module",
             "extra": {
                 "branch-alias": {
-                    "dev-7.x-2.x": "7.2.x"
+                    "dev-7.x-2.x": "7.2.x-dev"
                 }
             },
-            "notification-url": "http://drupal-packagist.org/downloads/",
             "description": "Provides YouTube support for File Entity and the Media module."
         },
         {
@@ -1195,9 +1029,8 @@
                 "shasum": null
             },
             "require": {
-                "composer/installers": "~1.0",
                 "drupal/drupal": "7.*",
-                "drupal/menu": ">0.7.11"
+                "drupal/menu": ">7.7.11"
             },
             "replace": {
                 "drupal/menu_block_export": "self.version"
@@ -1205,10 +1038,9 @@
             "type": "drupal-module",
             "extra": {
                 "branch-alias": {
-                    "dev-7.x-2.x": "7.2.x"
+                    "dev-7.x-2.x": "7.2.x-dev"
                 }
             },
-            "notification-url": "http://drupal-packagist.org/downloads/",
             "description": "Provides configurable blocks of menu items."
         },
         {
@@ -1226,7 +1058,6 @@
                 "shasum": null
             },
             "require": {
-                "composer/installers": "~1.0",
                 "drupal/comment": "7.*",
                 "drupal/drupal": "7.*",
                 "drupal/features": "7.*",
@@ -1244,37 +1075,34 @@
             "type": "drupal-module",
             "extra": {
                 "branch-alias": {
-                    "dev-7.x-2.x": "7.2.x"
+                    "dev-7.x-2.x": "7.2.x-dev"
                 }
             },
-            "notification-url": "http://drupal-packagist.org/downloads/",
             "description": "Import content from external sources"
         },
         {
             "name": "drupal/module_filter",
-            "version": "7.1.8",
+            "version": "7.2.0-alpha2",
             "source": {
                 "type": "git",
                 "url": "http://git.drupal.org/project/module_filter",
-                "reference": "8f7fbba018866bb91a30e27b68976155e04ce0a6"
+                "reference": "08b943f0bf89bc3c9960f40297ac632842907cd9"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://ftp.drupal.org/files/projects/module_filter-7.x-1.8.zip",
+                "url": "http://ftp.drupal.org/files/projects/module_filter-7.x-2.0-alpha2.zip",
                 "reference": null,
                 "shasum": null
             },
             "require": {
-                "composer/installers": "~1.0",
                 "drupal/drupal": "7.*"
             },
             "type": "drupal-module",
             "extra": {
                 "branch-alias": {
-                    "dev-7.x-1.x": "7.1.x"
+                    "dev-7.x-2.x": "7.2.x-dev"
                 }
             },
-            "notification-url": "http://drupal-packagist.org/downloads/",
             "description": "Filter the modules list."
         },
         {
@@ -1292,17 +1120,15 @@
                 "shasum": null
             },
             "require": {
-                "composer/installers": "~1.0",
                 "drupal/drupal": "7.*",
-                "drupal/libraries": ">=0.2.0"
+                "drupal/libraries": ">=7.2.0"
             },
             "type": "drupal-module",
             "extra": {
                 "branch-alias": {
-                    "dev-7.x-1.x": "7.1.x"
+                    "dev-7.x-1.x": "7.1.x-dev"
                 }
             },
-            "notification-url": "http://drupal-packagist.org/downloads/",
             "description": "A very simple mobile friendly toolbar that lets you switch between frontend and backend."
         },
         {
@@ -1320,7 +1146,6 @@
                 "shasum": null
             },
             "require": {
-                "composer/installers": "~1.0",
                 "drupal/drupal": "7.*"
             },
             "replace": {
@@ -1330,10 +1155,10 @@
             "type": "drupal-module",
             "extra": {
                 "branch-alias": {
-                    "dev-7.x-3.x": "7.3.x"
+                    "dev-7.x-3.x": "7.3.x-dev"
                 }
             },
-            "notification-url": "http://drupal-packagist.org/downloads/"
+            "description": "Provides OAuth functionality"
         },
         {
             "name": "drupal/panelizer",
@@ -1350,7 +1175,6 @@
                 "shasum": null
             },
             "require": {
-                "composer/installers": "~1.0",
                 "drupal/ctools": "7.*",
                 "drupal/drupal": "7.*",
                 "drupal/page_manager": "7.*",
@@ -1359,32 +1183,34 @@
             "type": "drupal-module",
             "extra": {
                 "branch-alias": {
-                    "dev-7.x-3.x": "7.3.x"
+                    "dev-7.x-3.x": "7.3.x-dev"
                 }
             },
-            "notification-url": "http://drupal-packagist.org/downloads/",
             "description": "Allow any node type to have custom panel displays, similar to the panel node type."
         },
         {
             "name": "drupal/panels",
-            "version": "7.3.3",
+            "version": "7.3.4",
             "source": {
                 "type": "git",
                 "url": "http://git.drupal.org/project/panels",
-                "reference": "6662e3b87186e42b677030eae63702fdb8061531"
+                "reference": "18319cd13a1c25a91e62f297d9367776956ac8d2"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://ftp.drupal.org/files/projects/panels-7.x-3.3.zip",
+                "url": "http://ftp.drupal.org/files/projects/panels-7.x-3.4.zip",
                 "reference": null,
                 "shasum": null
             },
             "require": {
-                "composer/installers": "~1.0",
-                "drupal/ctools": "7.*",
-                "drupal/drupal": "7.*"
+                "drupal/ctools": ">=7.1.4",
+                "drupal/drupal": "7.*",
+                "drupal/i18n": "7.*",
+                "drupal/i18n_string": "7.*",
+                "drupal/i18n_translation": "7.*"
             },
             "replace": {
+                "drupal/i18n_panels": "self.version",
                 "drupal/panels_ipe": "self.version",
                 "drupal/panels_mini": "self.version",
                 "drupal/panels_node": "self.version"
@@ -1392,36 +1218,61 @@
             "type": "drupal-module",
             "extra": {
                 "branch-alias": {
-                    "dev-7.x-3.x": "7.3.x"
+                    "dev-7.x-3.x": "7.3.x-dev"
                 }
             },
-            "notification-url": "http://drupal-packagist.org/downloads/",
             "description": "Core Panels display functions; provides no external UI, at least one other Panels module should be enabled."
         },
         {
-            "name": "drupal/panopoly",
-            "version": "7.1.0",
+            "name": "drupal/panels_breadcrumbs",
+            "version": "7.2.1",
             "source": {
                 "type": "git",
-                "url": "http://git.drupal.org/project/panopoly",
-                "reference": "96cbadd78ed5768aec559aa8ae50d19f0c7a6d60"
+                "url": "http://git.drupal.org/project/panels_breadcrumbs",
+                "reference": "81c58211074628a92bdc463960fd3eeaec134d60"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://ftp.drupal.org/files/projects/panopoly-7.x-1.0.zip",
+                "url": "http://ftp.drupal.org/files/projects/panels_breadcrumbs-7.x-2.1.zip",
                 "reference": null,
                 "shasum": null
             },
             "require": {
-                "composer/installers": "~1.0",
+                "drupal/ctools": "7.*",
+                "drupal/drupal": "7.*",
+                "drupal/page_manager": "7.*",
+                "drupal/panels": "7.*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-7.x-2.x": "7.2.x-dev"
+                }
+            },
+            "description": "Adds the ability to set breadcrumbs directly from Panels and takes advantage of arguments and contexts as placeholder tokens"
+        },
+        {
+            "name": "drupal/panopoly",
+            "version": "7.1.6",
+            "source": {
+                "type": "git",
+                "url": "http://git.drupal.org/project/panopoly",
+                "reference": "9e271a587570ac7815d3389cb468311685162180"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://ftp.drupal.org/files/projects/panopoly-7.x-1.6.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
                 "drupal/apps": "7.*",
                 "drupal/backports": "7.*",
                 "drupal/breakpoints": "7.*",
                 "drupal/date_popup_authored": "7.*",
                 "drupal/dblog": "7.*",
-                "drupal/defaultcontent": "7.*",
                 "drupal/devel": "7.*",
-                "drupal/drupal": "~7.24.0",
+                "drupal/drupal": "7.*",
                 "drupal/field": "7.*",
                 "drupal/field_ui": "7.*",
                 "drupal/file": "7.*",
@@ -1432,16 +1283,16 @@
                 "drupal/navbar": "7.*",
                 "drupal/number": "7.*",
                 "drupal/options": "7.*",
-                "drupal/panopoly_admin": "~7.1.0",
-                "drupal/panopoly_core": "~7.1.0",
-                "drupal/panopoly_images": "~7.1.0",
-                "drupal/panopoly_magic": "~7.1.0",
-                "drupal/panopoly_pages": "~7.1.0",
-                "drupal/panopoly_search": "~7.1.0",
-                "drupal/panopoly_theme": "~7.1.0",
-                "drupal/panopoly_users": "~7.1.0",
-                "drupal/panopoly_widgets": "~7.1.0",
-                "drupal/panopoly_wysiwyg": "~7.1.0",
+                "drupal/panopoly_admin": "7.*",
+                "drupal/panopoly_core": "7.*",
+                "drupal/panopoly_images": "7.*",
+                "drupal/panopoly_magic": "7.*",
+                "drupal/panopoly_pages": "7.*",
+                "drupal/panopoly_search": "7.*",
+                "drupal/panopoly_theme": "7.*",
+                "drupal/panopoly_users": "7.*",
+                "drupal/panopoly_widgets": "7.*",
+                "drupal/panopoly_wysiwyg": "7.*",
                 "drupal/path": "7.*",
                 "drupal/save_draft": "7.*",
                 "drupal/search": "7.*",
@@ -1455,120 +1306,130 @@
             "type": "drupal-profile",
             "extra": {
                 "branch-alias": {
-                    "dev-7.x-1.x": "7.1.x"
+                    "dev-7.x-1.x": "7.1.x-dev"
                 }
             },
-            "notification-url": "http://drupal-packagist.org/downloads/",
             "description": "A magical framework for building Drupal products based on the Panels module"
         },
         {
             "name": "drupal/panopoly_admin",
-            "version": "7.1.0-rc4",
+            "version": "7.1.6",
             "source": {
                 "type": "git",
                 "url": "http://git.drupal.org/project/panopoly_admin",
-                "reference": "4d9d071e74fe1077bfd86e870aa57d460a46e47c"
+                "reference": "f24197c1d476f83dd0b2f9bceb0419075b1ee5fa"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://ftp.drupal.org/files/projects/panopoly_admin-7.x-1.0-rc4.zip",
+                "url": "http://ftp.drupal.org/files/projects/panopoly_admin-7.x-1.6.zip",
                 "reference": null,
                 "shasum": null
             },
             "require": {
-                "composer/installers": "~1.0",
-                "drupal/admin": "~7.2.0",
-                "drupal/admin_menu": "~7.3.0",
-                "drupal/admin_views": "~7.1.1",
-                "drupal/backports": "~7.1.0",
+                "drupal/admin_views": "7.*",
                 "drupal/ctools": "7.*",
-                "drupal/date_popup_authored": "~7.1.1",
                 "drupal/defaultconfig": "7.*",
                 "drupal/drupal": "7.*",
                 "drupal/features": "7.*",
-                "drupal/jquery_update": "~7.2.3",
-                "drupal/module_filter": "~7.1.7",
-                "drupal/navbar": "~7.1.0",
+                "drupal/jquery_update": "7.*",
                 "drupal/page_manager": "7.*",
                 "drupal/panopoly_theme": "7.*",
-                "drupal/save_draft": "~7.1.4",
-                "drupal/simplified_menu_admin": "~7.1.0",
                 "drupal/strongarm": "7.*",
                 "drupal/views_bulk_operations": "7.*"
             },
             "type": "drupal-module",
             "extra": {
                 "branch-alias": {
-                    "dev-7.x-1.x": "7.1.x"
+                    "dev-7.x-1.x": "7.1.x-dev"
                 }
             },
-            "notification-url": "http://drupal-packagist.org/downloads/",
             "description": "Administrative dashboard and related editing interfaces."
         },
         {
             "name": "drupal/panopoly_core",
-            "version": "7.1.0-beta5",
+            "version": "7.1.6",
             "source": {
                 "type": "git",
                 "url": "http://git.drupal.org/project/panopoly_core",
-                "reference": "0a02b17f820062a8097ea4777247f2201299ca5e"
+                "reference": "40b105e8af9303647868fbd159fecb05459b7d1b"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://ftp.drupal.org/files/projects/panopoly_core-7.x-1.0-beta5.zip",
+                "url": "http://ftp.drupal.org/files/projects/panopoly_core-7.x-1.6.zip",
                 "reference": null,
                 "shasum": null
             },
             "require": {
-                "composer/installers": "~1.0",
                 "drupal/ctools": "7.*",
+                "drupal/date": "7.*",
+                "drupal/date_api": "7.*",
+                "drupal/date_popup": "7.*",
+                "drupal/date_views": "7.*",
+                "drupal/defaultconfig": "7.*",
                 "drupal/drupal": "7.*",
+                "drupal/entity": "7.*",
+                "drupal/entityreference": "7.*",
                 "drupal/features": "7.*",
+                "drupal/field_group": "7.*",
+                "drupal/field_sql_storage": "7.*",
+                "drupal/fieldable_panels_panes": "7.*",
                 "drupal/image": "7.*",
+                "drupal/libraries": "7.*",
+                "drupal/list": "7.*",
+                "drupal/menu": "7.*",
+                "drupal/page_manager": "7.*",
                 "drupal/panelizer": "7.*",
+                "drupal/panels": "7.*",
+                "drupal/panels_breadcrumbs": "7.*",
+                "drupal/panels_ipe": "7.*",
+                "drupal/pathauto": "7.*",
+                "drupal/pm_existing_pages": "7.*",
                 "drupal/strongarm": "7.*",
                 "drupal/taxonomy": "7.*",
-                "drupal/views": "7.*"
+                "drupal/token": "7.*",
+                "drupal/views": "7.*",
+                "drupal/views_autocomplete_filters": "7.*",
+                "drupal/views_content": "7.*"
             },
             "type": "drupal-module",
             "extra": {
                 "branch-alias": {
-                    "dev-7.x-1.x": "7.1.x"
+                    "dev-7.x-1.x": "7.1.x-dev"
                 }
             },
-            "notification-url": "http://drupal-packagist.org/downloads/",
             "description": "The magical core of the Panopoly framework."
         },
         {
             "name": "drupal/panopoly_images",
-            "version": "7.1.2",
+            "version": "7.1.6",
             "source": {
                 "type": "git",
                 "url": "http://git.drupal.org/project/panopoly_images",
-                "reference": "9ddaf2bf3e60acfd5d00fc48476cd9e0b6c2d683"
+                "reference": "f65b7b6bb2960f953e13cc90244df6d17f2aec0a"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://ftp.drupal.org/files/projects/panopoly_images-7.x-1.2.zip",
+                "url": "http://ftp.drupal.org/files/projects/panopoly_images-7.x-1.6.zip",
                 "reference": null,
                 "shasum": null
             },
             "require": {
-                "composer/installers": "~1.0",
                 "drupal/ctools": "7.*",
+                "drupal/defaultconfig": "7.*",
                 "drupal/drupal": "7.*",
                 "drupal/features": "7.*",
                 "drupal/file_entity": "7.*",
                 "drupal/image": "7.*",
-                "drupal/media": "7.*"
+                "drupal/manualcrop": "7.*",
+                "drupal/media": "7.*",
+                "drupal/strongarm": "7.*"
             },
             "type": "drupal-module",
             "extra": {
                 "branch-alias": {
-                    "dev-7.x-1.x": "7.1.x"
+                    "dev-7.x-1.x": "7.1.x-dev"
                 }
             },
-            "notification-url": "http://drupal-packagist.org/downloads/",
             "description": "Provides scaling and cropping to images."
         },
         {
@@ -1586,7 +1447,6 @@
                 "shasum": null
             },
             "require": {
-                "composer/installers": "~1.0",
                 "drupal/ctools": "7.*",
                 "drupal/drupal": "7.*",
                 "drupal/fape": "7.*",
@@ -1598,10 +1458,9 @@
             "type": "drupal-module",
             "extra": {
                 "branch-alias": {
-                    "dev-7.x-1.x": "7.1.x"
+                    "dev-7.x-1.x": "7.1.x-dev"
                 }
             },
-            "notification-url": "http://drupal-packagist.org/downloads/",
             "description": "Weaves together the chaos magic."
         },
         {
@@ -1619,7 +1478,6 @@
                 "shasum": null
             },
             "require": {
-                "composer/installers": "~1.0",
                 "drupal/ctools": "7.*",
                 "drupal/defaultconfig": "7.*",
                 "drupal/drupal": "7.*",
@@ -1635,10 +1493,9 @@
             "type": "drupal-module",
             "extra": {
                 "branch-alias": {
-                    "dev-7.x-1.x": "7.1.x"
+                    "dev-7.x-1.x": "7.1.x-dev"
                 }
             },
-            "notification-url": "http://drupal-packagist.org/downloads/",
             "description": "Provides a basic page, suitable for Panelizing."
         },
         {
@@ -1656,15 +1513,14 @@
                 "shasum": null
             },
             "require": {
-                "composer/installers": "~1.0",
                 "drupal/drupal": "7.*",
-                "drupal/facetapi": "~7.1.3",
+                "drupal/facetapi": "7.*",
                 "drupal/page_manager": "7.*",
                 "drupal/search": "7.*",
-                "drupal/search_api": "~7.1.7",
-                "drupal/search_api_db": "~7.1.0",
+                "drupal/search_api": "7.*",
+                "drupal/search_api_db": "7.*",
                 "drupal/search_api_facetapi": "7.*",
-                "drupal/search_api_solr": "~7.1.1",
+                "drupal/search_api_solr": "7.*",
                 "drupal/search_api_views": "7.*",
                 "drupal/strongarm": "7.*",
                 "drupal/views": "7.*",
@@ -1673,10 +1529,9 @@
             "type": "drupal-module",
             "extra": {
                 "branch-alias": {
-                    "dev-7.x-1.x": "7.1.x"
+                    "dev-7.x-1.x": "7.1.x-dev"
                 }
             },
-            "notification-url": "http://drupal-packagist.org/downloads/",
             "description": "Indexes and searches site content, Solr or otherwise."
         },
         {
@@ -1694,19 +1549,15 @@
                 "shasum": null
             },
             "require": {
-                "composer/installers": "~1.0",
                 "drupal/drupal": "7.*",
-                "drupal/panels": "7.*",
-                "drupal/respondjs": "~7.1.2",
-                "drupal/responsive_bartik": "~7.1.0"
+                "drupal/panels": "7.*"
             },
             "type": "drupal-module",
             "extra": {
                 "branch-alias": {
-                    "dev-7.x-1.x": "7.1.x"
+                    "dev-7.x-1.x": "7.1.x-dev"
                 }
             },
-            "notification-url": "http://drupal-packagist.org/downloads/",
             "description": "Helps with theming and provides many layouts."
         },
         {
@@ -1724,7 +1575,6 @@
                 "shasum": null
             },
             "require": {
-                "composer/installers": "~1.0",
                 "drupal/ctools": "7.*",
                 "drupal/defaultconfig": "7.*",
                 "drupal/drupal": "7.*",
@@ -1735,108 +1585,125 @@
                 "drupal/panelizer": "7.*",
                 "drupal/pm_existing_pages": "7.*",
                 "drupal/strongarm": "7.*",
-                "drupal/user_picture_field": "~7.1.0"
+                "drupal/user_picture_field": "7.*"
             },
             "type": "drupal-module",
             "extra": {
                 "branch-alias": {
-                    "dev-7.x-1.x": "7.1.x"
+                    "dev-7.x-1.x": "7.1.x-dev"
                 }
             },
-            "notification-url": "http://drupal-packagist.org/downloads/",
             "description": "Maintains user accounts and user workflows."
         },
         {
             "name": "drupal/panopoly_widgets",
-            "version": "7.1.0-beta5",
+            "version": "7.1.6",
             "source": {
                 "type": "git",
                 "url": "http://git.drupal.org/project/panopoly_widgets",
-                "reference": "3f72ef0a8b7f7ee8be2d4f3a2a6c20805d4d7b0b"
+                "reference": "24cf2aafdcf3e59168dd2d528c7ae0506d1d94c1"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://ftp.drupal.org/files/projects/panopoly_widgets-7.x-1.0-beta5.zip",
+                "url": "http://ftp.drupal.org/files/projects/panopoly_widgets-7.x-1.6.zip",
                 "reference": null,
                 "shasum": null
             },
             "require": {
-                "composer/installers": "~1.0",
-                "drupal/ctools": "7.*",
-                "drupal/drupal": "7.*",
-                "drupal/entity": "7.*",
-                "drupal/entityreference": "7.*",
-                "drupal/features": "7.*",
-                "drupal/field_sql_storage": "7.*",
-                "drupal/fieldable_panels_panes": "7.*",
-                "drupal/file_entity": "7.*",
-                "drupal/image": "7.*",
-                "drupal/link": "7.*",
-                "drupal/list": "7.*",
-                "drupal/media": "7.*",
-                "drupal/media_vimeo": "7.*",
-                "drupal/media_youtube": "7.*",
-                "drupal/mediafield": "7.*",
-                "drupal/node": "7.*",
-                "drupal/number": "7.*",
-                "drupal/page_manager": "7.*",
-                "drupal/panels": "7.*",
-                "drupal/panels_ipe": "7.*",
-                "drupal/panopoly_core": "7.*",
-                "drupal/simple_gmap": "7.*",
-                "drupal/strongarm": "7.*",
-                "drupal/tablefield": "7.*",
-                "drupal/text": "7.*",
-                "drupal/views": "7.*"
-            },
-            "type": "drupal-module",
-            "extra": {
-                "branch-alias": {
-                    "dev-7.x-1.x": "7.1.x"
-                }
-            },
-            "notification-url": "http://drupal-packagist.org/downloads/",
-            "description": "Creates generic widget functionality to customize wide and far."
-        },
-        {
-            "name": "drupal/panopoly_wysiwyg",
-            "version": "7.1.0-rc5",
-            "source": {
-                "type": "git",
-                "url": "http://git.drupal.org/project/panopoly_wysiwyg",
-                "reference": "553f0ac29b9e615621cf2303407e57a2decc028e"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "http://ftp.drupal.org/files/projects/panopoly_wysiwyg-7.x-1.0-rc5.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0",
-                "drupal/caption_filter": "~7.1.2",
                 "drupal/ctools": "7.*",
                 "drupal/defaultconfig": "7.*",
                 "drupal/drupal": "7.*",
                 "drupal/features": "7.*",
-                "drupal/image_resize_filter": "~7.1.13",
-                "drupal/linkit": "~7.2.6",
+                "drupal/fieldable_panels_panes": "7.*",
+                "drupal/file": "7.*",
+                "drupal/file_entity": "7.*",
+                "drupal/image": "7.*",
+                "drupal/link": "7.*",
+                "drupal/media": "7.*",
+                "drupal/media_vimeo": "7.*",
+                "drupal/media_youtube": "7.*",
+                "drupal/menu_block": "7.*",
+                "drupal/number": "7.*",
+                "drupal/page_manager": "7.*",
+                "drupal/simple_gmap": "7.*",
+                "drupal/tablefield": "7.*",
+                "drupal/text": "7.*",
+                "drupal/views": "7.*",
+                "drupal/views_autocomplete_filters": "7.*",
+                "drupal/views_content": "7.*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-7.x-1.x": "7.1.x-dev"
+                }
+            },
+            "description": "Creates generic widget functionality to customize wide and far."
+        },
+        {
+            "name": "drupal/panopoly_wysiwyg",
+            "version": "7.1.2",
+            "source": {
+                "type": "git",
+                "url": "http://git.drupal.org/project/panopoly_wysiwyg",
+                "reference": "4df5dd281dfe9b8864aa2fb680e61324bb79bcc7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://ftp.drupal.org/files/projects/panopoly_wysiwyg-7.x-1.2.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "drupal/caption_filter": "7.*",
+                "drupal/ctools": "7.*",
+                "drupal/defaultconfig": "7.*",
+                "drupal/drupal": "7.*",
+                "drupal/features": "7.*",
+                "drupal/image_resize_filter": "7.*",
+                "drupal/linkit": "7.*",
                 "drupal/media": "7.*",
                 "drupal/media_internet": "7.*",
                 "drupal/media_vimeo": "7.*",
                 "drupal/media_youtube": "7.*",
                 "drupal/strongarm": "7.*",
-                "drupal/wysiwyg": "~7.2.2",
-                "drupal/wysiwyg_filter": "~7.1.6"
+                "drupal/wysiwyg": "7.*",
+                "drupal/wysiwyg_filter": "7.*"
             },
             "type": "drupal-module",
             "extra": {
                 "branch-alias": {
-                    "dev-7.x-1.x": "7.1.x"
+                    "dev-7.x-1.x": "7.1.x-dev"
                 }
             },
-            "notification-url": "http://drupal-packagist.org/downloads/",
             "description": "Integrates a WYSIWYG into Drupal."
+        },
+        {
+            "name": "drupal/pathauto",
+            "version": "7.1.2",
+            "source": {
+                "type": "git",
+                "url": "http://git.drupal.org/project/pathauto",
+                "reference": "e95ceafa6b4638084cc37aeaff268f117f84a111"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://ftp.drupal.org/files/projects/pathauto-7.x-1.2.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "drupal/drupal": "7.*",
+                "drupal/path": "7.*",
+                "drupal/token": "7.*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-7.x-1.x": "7.1.x-dev"
+                }
+            },
+            "description": "Provides a mechanism for modules to automatically generate aliases for the content they manage."
         },
         {
             "name": "drupal/pm_existing_pages",
@@ -1853,72 +1720,16 @@
                 "shasum": null
             },
             "require": {
-                "composer/installers": "~1.0",
                 "drupal/drupal": "7.*",
                 "drupal/page_manager": "7.*"
             },
             "type": "drupal-module",
             "extra": {
                 "branch-alias": {
-                    "dev-7.x-1.x": "7.1.x"
+                    "dev-7.x-1.x": "7.1.x-dev"
                 }
             },
-            "notification-url": "http://drupal-packagist.org/downloads/",
             "description": "Provides the ability to override existing pages through Page manager."
-        },
-        {
-            "name": "drupal/respondjs",
-            "version": "7.1.3",
-            "source": {
-                "type": "git",
-                "url": "http://git.drupal.org/project/respondjs",
-                "reference": "57985b0a407b8dc2475deb6a992b6e7ae5c39603"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "http://ftp.drupal.org/files/projects/respondjs-7.x-1.3.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0",
-                "drupal/drupal": "7.*"
-            },
-            "type": "drupal-module",
-            "extra": {
-                "branch-alias": {
-                    "dev-7.x-1.x": "7.1.x"
-                }
-            },
-            "notification-url": "http://drupal-packagist.org/downloads/",
-            "description": "Respond.js integration for Drupal"
-        },
-        {
-            "name": "drupal/responsive_bartik",
-            "version": "7.1.0-rc1",
-            "source": {
-                "type": "git",
-                "url": "http://git.drupal.org/project/responsive_bartik",
-                "reference": "495a929a7a1ba60780b84af8ae63d8a32afcdc26"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "http://ftp.drupal.org/files/projects/responsive_bartik-7.x-1.0-rc1.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0",
-                "drupal/drupal": "7.*"
-            },
-            "type": "drupal-theme",
-            "extra": {
-                "branch-alias": {
-                    "dev-7.x-1.x": "7.1.x"
-                }
-            },
-            "notification-url": "http://drupal-packagist.org/downloads/",
-            "description": "A flexible, recolorable theme with many regions and a responsive, mobile-first layout."
         },
         {
             "name": "drupal/save_draft",
@@ -1935,16 +1746,14 @@
                 "shasum": null
             },
             "require": {
-                "composer/installers": "~1.0",
                 "drupal/drupal": "7.*"
             },
             "type": "drupal-module",
             "extra": {
                 "branch-alias": {
-                    "dev-7.x-1.x": "7.1.x"
+                    "dev-7.x-1.x": "7.1.x-dev"
                 }
             },
-            "notification-url": "http://drupal-packagist.org/downloads/",
             "description": "Adds a 'Save as Draft' button to content types"
         },
         {
@@ -1962,7 +1771,6 @@
                 "shasum": null
             },
             "require": {
-                "composer/installers": "~1.0",
                 "drupal/drupal": "7.*",
                 "drupal/entity": "7.*",
                 "drupal/facetapi": "7.*",
@@ -1975,10 +1783,9 @@
             "type": "drupal-module",
             "extra": {
                 "branch-alias": {
-                    "dev-7.x-1.x": "7.1.x"
+                    "dev-7.x-1.x": "7.1.x-dev"
                 }
             },
-            "notification-url": "http://drupal-packagist.org/downloads/",
             "description": "Provides a generic API for modules offering search capabilites."
         },
         {
@@ -1996,17 +1803,15 @@
                 "shasum": null
             },
             "require": {
-                "composer/installers": "~1.0",
                 "drupal/drupal": "7.*",
                 "drupal/search_api": "7.*"
             },
             "type": "drupal-module",
             "extra": {
                 "branch-alias": {
-                    "dev-7.x-1.x": "7.1.x"
+                    "dev-7.x-1.x": "7.1.x-dev"
                 }
             },
-            "notification-url": "http://drupal-packagist.org/downloads/",
             "description": "Offers an implementation of the Search API that uses database tables for indexing content."
         },
         {
@@ -2024,52 +1829,49 @@
                 "shasum": null
             },
             "require": {
-                "composer/installers": "~1.0",
                 "drupal/drupal": "7.*",
                 "drupal/search_api": "7.*"
             },
             "type": "drupal-module",
             "extra": {
                 "branch-alias": {
-                    "dev-7.x-1.x": "7.1.x"
+                    "dev-7.x-1.x": "7.1.x-dev"
                 }
             },
-            "notification-url": "http://drupal-packagist.org/downloads/",
             "description": "Offers an implementation of the Search API that uses an Apache Solr server for indexing content."
         },
         {
             "name": "drupal/services",
-            "version": "7.3.7",
+            "version": "7.3.2",
             "source": {
                 "type": "git",
                 "url": "http://git.drupal.org/project/services",
-                "reference": "96f7c4ab2cda88d354c8b02c9b4122c1c5fa8583"
+                "reference": "ee760c1b79a7479748e9b1e2811c215940f481e1"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://ftp.drupal.org/files/projects/services-7.x-3.7.zip",
+                "url": "http://ftp.drupal.org/files/projects/services-7.x-3.2.zip",
                 "reference": null,
                 "shasum": null
             },
             "require": {
-                "composer/installers": "~1.0",
                 "drupal/ctools": "7.*",
                 "drupal/drupal": "7.*",
-                "drupal/libraries": ">=0.2.x-dev",
+                "drupal/libraries": "7.*",
                 "drupal/oauth_common": "7.*"
             },
             "replace": {
                 "drupal/rest_server": "self.version",
                 "drupal/services_oauth": "self.version",
+                "drupal/xcal_format": "self.version",
                 "drupal/xmlrpc_server": "self.version"
             },
             "type": "drupal-module",
             "extra": {
                 "branch-alias": {
-                    "dev-7.x-3.x": "7.3.x"
+                    "dev-7.x-3.x": "7.3.x-dev"
                 }
             },
-            "notification-url": "http://drupal-packagist.org/downloads/",
             "description": "Provide an API for creating web services."
         },
         {
@@ -2087,16 +1889,14 @@
                 "shasum": null
             },
             "require": {
-                "composer/installers": "~1.0",
                 "drupal/drupal": "7.*"
             },
             "type": "drupal-module",
             "extra": {
                 "branch-alias": {
-                    "dev-7.x-1.x": "7.1.x"
+                    "dev-7.x-1.x": "7.1.x-dev"
                 }
             },
-            "notification-url": "http://drupal-packagist.org/downloads/",
             "description": "Provides a Google Maps link/map formatter for simple Text fields"
         },
         {
@@ -2114,16 +1914,14 @@
                 "shasum": null
             },
             "require": {
-                "composer/installers": "~1.0",
                 "drupal/drupal": "7.*"
             },
             "type": "drupal-module",
             "extra": {
                 "branch-alias": {
-                    "dev-7.x-1.x": "7.1.x"
+                    "dev-7.x-1.x": "7.1.x-dev"
                 }
             },
-            "notification-url": "http://drupal-packagist.org/downloads/",
             "description": "Simplifies the Menu and Shortcut modules by merging \"List links\" and \"Edit menu\" into a single administration page."
         },
         {
@@ -2141,17 +1939,15 @@
                 "shasum": null
             },
             "require": {
-                "composer/installers": "~1.0",
                 "drupal/ctools": "7.*",
                 "drupal/drupal": "7.*"
             },
             "type": "drupal-module",
             "extra": {
                 "branch-alias": {
-                    "dev-7.x-2.x": "7.2.x"
+                    "dev-7.x-2.x": "7.2.x-dev"
                 }
             },
-            "notification-url": "http://drupal-packagist.org/downloads/",
             "description": "Enforces variable values defined by modules that need settings set to operate properly."
         },
         {
@@ -2169,41 +1965,39 @@
                 "shasum": null
             },
             "require": {
-                "composer/installers": "~1.0",
                 "drupal/drupal": "7.*"
             },
             "type": "drupal-module",
             "extra": {
                 "branch-alias": {
-                    "dev-7.x-2.x": "7.2.x"
+                    "dev-7.x-2.x": "7.2.x-dev"
                 }
             },
-            "notification-url": "http://drupal-packagist.org/downloads/",
             "description": "Defines a generic tablular data field."
         },
         {
             "name": "drupal/tangler",
-            "version": "0.1.0",
+            "version": "0.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/winmillwill/drupal-tangler.git",
-                "reference": "5bd64361503a2ddd0584216d48ee2b59b68c4a5b"
+                "reference": "dab4bac887c26e6cf693da45436b97b798a44919"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/winmillwill/drupal-tangler/zipball/5bd64361503a2ddd0584216d48ee2b59b68c4a5b",
-                "reference": "5bd64361503a2ddd0584216d48ee2b59b68c4a5b",
+                "url": "https://api.github.com/repos/winmillwill/drupal-tangler/zipball/dab4bac887c26e6cf693da45436b97b798a44919",
+                "reference": "dab4bac887c26e6cf693da45436b97b798a44919",
                 "shasum": ""
             },
             "require": {
-                "composer/composer": "*@dev",
-                "composer/installers": "*@dev",
-                "symfony/filesystem": "*@stable"
+                "composer/composer": "~1.0@alpha",
+                "symfony/console": "*",
+                "symfony/filesystem": "*@stable",
+                "symfony/finder": "*@stable"
             },
-            "require-dev": {
-                "drupal/drupal": "7.*",
-                "drupal/panels": "7.*"
-            },
+            "bin": [
+                "bin/drupal_tangle"
+            ],
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -2211,7 +2005,32 @@
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
-            "time": "2014-06-22 18:12:07"
+            "time": "2014-07-03 18:06:05"
+        },
+        {
+            "name": "drupal/token",
+            "version": "7.1.5",
+            "source": {
+                "type": "git",
+                "url": "http://git.drupal.org/project/token",
+                "reference": "72f3d1723fb5b2071a54d24fccad1f333c86c4fa"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://ftp.drupal.org/files/projects/token-7.x-1.5.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "drupal/drupal": "7.*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-7.x-1.x": "7.1.x-dev"
+                }
+            },
+            "description": "Provides a user interface for the Token API and some missing core tokens."
         },
         {
             "name": "drupal/user_picture_field",
@@ -2228,16 +2047,14 @@
                 "shasum": null
             },
             "require": {
-                "composer/installers": "~1.0",
                 "drupal/drupal": "7.*"
             },
             "type": "drupal-module",
             "extra": {
                 "branch-alias": {
-                    "dev-7.x-1.x": "7.1.x"
+                    "dev-7.x-1.x": "7.1.x-dev"
                 }
             },
-            "notification-url": "http://drupal-packagist.org/downloads/",
             "description": "user picture field."
         },
         {
@@ -2255,7 +2072,6 @@
                 "shasum": null
             },
             "require": {
-                "composer/installers": "~1.0",
                 "drupal/drupal": "7.*",
                 "drupal/entity": "7.*",
                 "drupal/features": "7.*",
@@ -2271,11 +2087,43 @@
             "type": "drupal-module",
             "extra": {
                 "branch-alias": {
-                    "dev-7.x-1.x": "7.1.x"
+                    "dev-7.x-1.x": "7.1.x-dev"
                 }
             },
-            "notification-url": "http://drupal-packagist.org/downloads/",
             "description": "Extends the entity functionality and adds support for universally unique identifiers."
+        },
+        {
+            "name": "drupal/variable",
+            "version": "7.2.5",
+            "source": {
+                "type": "git",
+                "url": "http://git.drupal.org/project/variable",
+                "reference": "83c00d0daed27175cd8de9134dd047e617bcedf0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://ftp.drupal.org/files/projects/variable-7.x-2.5.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "drupal/drupal": "7.*",
+                "drupal/views": "7.*"
+            },
+            "replace": {
+                "drupal/variable_admin": "self.version",
+                "drupal/variable_example": "self.version",
+                "drupal/variable_realm": "self.version",
+                "drupal/variable_store": "self.version",
+                "drupal/variable_views": "self.version"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-7.x-2.x": "7.2.x-dev"
+                }
+            },
+            "description": "Variable Information and basic variable API"
         },
         {
             "name": "drupal/views",
@@ -2292,7 +2140,6 @@
                 "shasum": null
             },
             "require": {
-                "composer/installers": "~1.0",
                 "drupal/ctools": "7.*",
                 "drupal/drupal": "7.*"
             },
@@ -2302,11 +2149,36 @@
             "type": "drupal-module",
             "extra": {
                 "branch-alias": {
-                    "dev-7.x-3.x": "7.3.x"
+                    "dev-7.x-3.x": "7.3.x-dev"
                 }
             },
-            "notification-url": "http://drupal-packagist.org/downloads/",
             "description": "Create customized lists and queries from your database."
+        },
+        {
+            "name": "drupal/views_autocomplete_filters",
+            "version": "7.1.1",
+            "source": {
+                "type": "git",
+                "url": "http://git.drupal.org/project/views_autocomplete_filters",
+                "reference": "d09e1981d71e0a96750ee78b1f3128fe7056c4bd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://ftp.drupal.org/files/projects/views_autocomplete_filters-7.x-1.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "drupal/drupal": "7.*",
+                "drupal/views": "7.*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-7.x-1.x": "7.1.x-dev"
+                }
+            },
+            "description": "Views Autocomplete Filters"
         },
         {
             "name": "drupal/views_bulk_operations",
@@ -2323,7 +2195,6 @@
                 "shasum": null
             },
             "require": {
-                "composer/installers": "~1.0",
                 "drupal/drupal": "7.*",
                 "drupal/entity": "7.*",
                 "drupal/views": "7.*"
@@ -2334,10 +2205,9 @@
             "type": "drupal-module",
             "extra": {
                 "branch-alias": {
-                    "dev-7.x-3.x": "7.3.x"
+                    "dev-7.x-3.x": "7.3.x-dev"
                 }
             },
-            "notification-url": "http://drupal-packagist.org/downloads/",
             "description": "Provides a way of selecting multiple rows and applying operations to them."
         },
         {
@@ -2355,16 +2225,14 @@
                 "shasum": null
             },
             "require": {
-                "composer/installers": "~1.0",
                 "drupal/drupal": "7.*"
             },
             "type": "drupal-module",
             "extra": {
                 "branch-alias": {
-                    "dev-7.x-2.x": "7.2.x"
+                    "dev-7.x-2.x": "7.2.x-dev"
                 }
             },
-            "notification-url": "http://drupal-packagist.org/downloads/",
             "description": "Allows to edit content with client-side editors."
         },
         {
@@ -2382,16 +2250,14 @@
                 "shasum": null
             },
             "require": {
-                "composer/installers": "~1.0",
                 "drupal/drupal": "7.*"
             },
             "type": "drupal-module",
             "extra": {
                 "branch-alias": {
-                    "dev-7.x-1.x": "7.1.x"
+                    "dev-7.x-1.x": "7.1.x-dev"
                 }
             },
-            "notification-url": "http://drupal-packagist.org/downloads/",
             "description": "Provides an input filter that allows site administrators configure which HTML elements, attributes and style properties are allowed."
         },
         {
@@ -2461,58 +2327,6 @@
             "time": "2014-05-27 13:12:35"
         },
         {
-            "name": "incenteev/composer-parameter-handler",
-            "version": "v2.1.0",
-            "target-dir": "Incenteev/ParameterHandler",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Incenteev/ParameterHandler.git",
-                "reference": "143272a0a09c62616a3c8011fc165a10c6b35241"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Incenteev/ParameterHandler/zipball/143272a0a09c62616a3c8011fc165a10c6b35241",
-                "reference": "143272a0a09c62616a3c8011fc165a10c6b35241",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.3",
-                "symfony/yaml": "~2.0"
-            },
-            "require-dev": {
-                "composer/composer": "1.0.*@dev",
-                "phpspec/prophecy-phpunit": "~1.0",
-                "symfony/filesystem": "~2.2"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "2.1.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-0": {
-                    "Incenteev\\ParameterHandler": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Christophe Coevoet",
-                    "email": "stof@notk.org"
-                }
-            ],
-            "description": "Composer script handling your ignored parameter file",
-            "homepage": "https://github.com/Incenteev/ParameterHandler",
-            "keywords": [
-                "parameters management"
-            ],
-            "time": "2013-12-07 10:10:39"
-        },
-        {
             "name": "justinrainbow/json-schema",
             "version": "1.1.0",
             "source": {
@@ -2555,7 +2369,7 @@
                 },
                 {
                     "name": "Robert Schönthal",
-                    "email": "seroscho@googlemail.com",
+                    "email": "robert.schoenthal@gmail.com",
                     "homepage": "http://digitalkaoz.net"
                 }
             ],
@@ -2569,16 +2383,16 @@
         },
         {
             "name": "seld/jsonlint",
-            "version": "1.1.2",
+            "version": "1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/jsonlint.git",
-                "reference": "7cd4c4965e17e6e4c07f26d566619a4c76f8c672"
+                "reference": "9cae56dbe34f4392e7d0f559474df33749a39f8d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/jsonlint/zipball/7cd4c4965e17e6e4c07f26d566619a4c76f8c672",
-                "reference": "7cd4c4965e17e6e4c07f26d566619a4c76f8c672",
+                "url": "https://api.github.com/repos/Seldaek/jsonlint/zipball/9cae56dbe34f4392e7d0f559474df33749a39f8d",
+                "reference": "9cae56dbe34f4392e7d0f559474df33749a39f8d",
                 "shasum": ""
             },
             "require": {
@@ -2589,8 +2403,8 @@
             ],
             "type": "library",
             "autoload": {
-                "psr-0": {
-                    "Seld\\JsonLint": "src/"
+                "psr-4": {
+                    "Seld\\JsonLint\\": "src/Seld/JsonLint/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -2601,8 +2415,7 @@
                 {
                     "name": "Jordi Boggiano",
                     "email": "j.boggiano@seld.be",
-                    "homepage": "http://seld.be",
-                    "role": "Developer"
+                    "homepage": "http://seld.be"
                 }
             ],
             "description": "JSON Linter",
@@ -2612,21 +2425,21 @@
                 "parser",
                 "validator"
             ],
-            "time": "2013-11-04 15:41:11"
+            "time": "2014-07-20 17:36:11"
         },
         {
             "name": "symfony/config",
-            "version": "v2.5.0",
+            "version": "v2.5.2",
             "target-dir": "Symfony/Component/Config",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Config.git",
-                "reference": "9c8caadb38ecc69ac35ab31af4d1996944b5a09f"
+                "reference": "a31aa8029bcc0b5b85578328050aa70d052e177b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Config/zipball/9c8caadb38ecc69ac35ab31af4d1996944b5a09f",
-                "reference": "9c8caadb38ecc69ac35ab31af4d1996944b5a09f",
+                "url": "https://api.github.com/repos/symfony/Config/zipball/a31aa8029bcc0b5b85578328050aa70d052e177b",
+                "reference": "a31aa8029bcc0b5b85578328050aa70d052e177b",
                 "shasum": ""
             },
             "require": {
@@ -2662,21 +2475,21 @@
             ],
             "description": "Symfony Config Component",
             "homepage": "http://symfony.com",
-            "time": "2014-04-22 08:11:23"
+            "time": "2014-07-09 09:05:48"
         },
         {
             "name": "symfony/console",
-            "version": "v2.5.0",
+            "version": "v2.5.2",
             "target-dir": "Symfony/Component/Console",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Console.git",
-                "reference": "ef4ca73b0b3a10cbac653d3ca482d0cdd4502b2c"
+                "reference": "386fa63407805959bd2c5fe540294721ad4224c8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Console/zipball/ef4ca73b0b3a10cbac653d3ca482d0cdd4502b2c",
-                "reference": "ef4ca73b0b3a10cbac653d3ca482d0cdd4502b2c",
+                "url": "https://api.github.com/repos/symfony/Console/zipball/386fa63407805959bd2c5fe540294721ad4224c8",
+                "reference": "386fa63407805959bd2c5fe540294721ad4224c8",
                 "shasum": ""
             },
             "require": {
@@ -2719,21 +2532,21 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "http://symfony.com",
-            "time": "2014-05-22 08:54:24"
+            "time": "2014-07-15 14:15:12"
         },
         {
             "name": "symfony/filesystem",
-            "version": "v2.5.0",
+            "version": "v2.5.2",
             "target-dir": "Symfony/Component/Filesystem",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Filesystem.git",
-                "reference": "98e831eac836a0a5911626ce82684155f21d0e4d"
+                "reference": "c1309b0ee195ad264a4314435bdaecdfacb8ae9c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Filesystem/zipball/98e831eac836a0a5911626ce82684155f21d0e4d",
-                "reference": "98e831eac836a0a5911626ce82684155f21d0e4d",
+                "url": "https://api.github.com/repos/symfony/Filesystem/zipball/c1309b0ee195ad264a4314435bdaecdfacb8ae9c",
+                "reference": "c1309b0ee195ad264a4314435bdaecdfacb8ae9c",
                 "shasum": ""
             },
             "require": {
@@ -2768,21 +2581,21 @@
             ],
             "description": "Symfony Filesystem Component",
             "homepage": "http://symfony.com",
-            "time": "2014-04-16 10:36:21"
+            "time": "2014-07-09 09:05:48"
         },
         {
             "name": "symfony/finder",
-            "version": "v2.5.0",
+            "version": "v2.5.2",
             "target-dir": "Symfony/Component/Finder",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Finder.git",
-                "reference": "307aad2c541bbdf43183043645e186ef2cd6b973"
+                "reference": "576d8f69feec477067e91b6bd0367c113e76a1a0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Finder/zipball/307aad2c541bbdf43183043645e186ef2cd6b973",
-                "reference": "307aad2c541bbdf43183043645e186ef2cd6b973",
+                "url": "https://api.github.com/repos/symfony/Finder/zipball/576d8f69feec477067e91b6bd0367c113e76a1a0",
+                "reference": "576d8f69feec477067e91b6bd0367c113e76a1a0",
                 "shasum": ""
             },
             "require": {
@@ -2817,21 +2630,21 @@
             ],
             "description": "Symfony Finder Component",
             "homepage": "http://symfony.com",
-            "time": "2014-05-22 13:47:45"
+            "time": "2014-07-15 14:15:12"
         },
         {
             "name": "symfony/process",
-            "version": "v2.5.0",
+            "version": "v2.5.2",
             "target-dir": "Symfony/Component/Process",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Process.git",
-                "reference": "5d7d78e23894544740219e006320678cfa4cd45b"
+                "reference": "5e53efbf61a7fbf73c79e3e08feea50f64c20bfa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Process/zipball/5d7d78e23894544740219e006320678cfa4cd45b",
-                "reference": "5d7d78e23894544740219e006320678cfa4cd45b",
+                "url": "https://api.github.com/repos/symfony/Process/zipball/5e53efbf61a7fbf73c79e3e08feea50f64c20bfa",
+                "reference": "5e53efbf61a7fbf73c79e3e08feea50f64c20bfa",
                 "shasum": ""
             },
             "require": {
@@ -2866,21 +2679,21 @@
             ],
             "description": "Symfony Process Component",
             "homepage": "http://symfony.com",
-            "time": "2014-05-23 09:02:52"
+            "time": "2014-07-09 09:05:48"
         },
         {
             "name": "symfony/yaml",
-            "version": "v2.5.0",
+            "version": "v2.5.2",
             "target-dir": "Symfony/Component/Yaml",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Yaml.git",
-                "reference": "b4b09c68ec2f2727574544ef0173684281a5033c"
+                "reference": "f868ecdbcc0276b6158dfbf08b9e98ce07f014e1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Yaml/zipball/b4b09c68ec2f2727574544ef0173684281a5033c",
-                "reference": "b4b09c68ec2f2727574544ef0173684281a5033c",
+                "url": "https://api.github.com/repos/symfony/Yaml/zipball/f868ecdbcc0276b6158dfbf08b9e98ce07f014e1",
+                "reference": "f868ecdbcc0276b6158dfbf08b9e98ce07f014e1",
                 "shasum": ""
             },
             "require": {
@@ -2915,15 +2728,21 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "http://symfony.com",
-            "time": "2014-05-16 14:25:18"
+            "time": "2014-07-09 09:05:48"
         },
         {
             "name": "winmillwill/settings_compile",
-            "version": "dev-master",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
-                "url": "/Users/will/projects/settings_compile",
-                "reference": "a8e4f5d854675dd81ddd6d0cef7f762ce6c8770f"
+                "url": "https://github.com/winmillwill/settings_compile.git",
+                "reference": "7d9cb53cf70390ab3272e243c1383a3e1a436b2a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/winmillwill/settings_compile/zipball/7d9cb53cf70390ab3272e243c1383a3e1a436b2a",
+                "reference": "7d9cb53cf70390ab3272e243c1383a3e1a436b2a",
+                "shasum": ""
             },
             "require": {
                 "symfony/config": "*",
@@ -2941,21 +2760,30 @@
                     "Drupal\\Settings\\": "src/"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "authors": [
                 {
                     "name": "Will Milton",
                     "email": "wa.milton@gmail.com"
                 }
             ],
-            "time": "2014-06-22 22:38:28"
+            "time": "2014-06-22 21:29:15"
         }
     ],
-    "packages-dev": [],
-    "aliases": [],
+    "packages-dev": [
+
+    ],
+    "aliases": [
+
+    ],
     "minimum-stability": "alpha",
-    "stability-flags": {
-        "winmillwill/settings_compile": 20
-    },
-    "platform": [],
-    "platform-dev": []
+    "stability-flags": [
+
+    ],
+    "platform": [
+
+    ],
+    "platform-dev": [
+
+    ]
 }
