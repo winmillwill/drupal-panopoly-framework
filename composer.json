@@ -9,18 +9,17 @@
     ],
     "require": {
         "drupal/panopoly": "7.*",
-        "drupal/tangler": "~0.1",
+        "drupal/tangler": "~0.1.3",
         "drush/drush": "6.*",
-        "winmillwill/settings_compile": "2.*"
+        "winmillwill/settings_compile": "~2.1"
     },
     "scripts": {
         "post-install-cmd": [
           "Drupal\\Tangler\\ScriptHandler::postUpdate",
-          "vendor/bin/settings_compile config.yml www/sites/default/settings.php"
+          "vendor/bin/settings_compile config.yml.dist www/sites/default/settings.php"
         ],
         "post-update-cmd": [
-          "Drupal\\Tangler\\ScriptHandler::postUpdate",
-          "vendor/bin/settings_compile config.yml www/sites/default/settings.php"
+          "Drupal\\Tangler\\ScriptHandler::postUpdate"
         ]
     },
     "minimum-stability": "alpha"
