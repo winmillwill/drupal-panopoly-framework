@@ -1,0 +1,27 @@
+{
+    "name": "drupal/panopoly-framework",
+    "type": "project",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://static.drupal-packagist.org/v0.1.0"
+        }
+    ],
+    "require": {
+        "drupal/panopoly": "7.*",
+        "drupal/tangler": "~0.1",
+        "drush/drush": "6.*",
+        "winmillwill/settings_compile": "2.*"
+    },
+    "scripts": {
+        "post-install-cmd": [
+          "Drupal\\Tangler\\ScriptHandler::postUpdate",
+          "vendor/bin/settings_compile config.yml www/sites/default/settings.php"
+        ],
+        "post-update-cmd": [
+          "Drupal\\Tangler\\ScriptHandler::postUpdate",
+          "vendor/bin/settings_compile config.yml www/sites/default/settings.php"
+        ]
+    },
+    "minimum-stability": "alpha"
+}

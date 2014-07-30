@@ -1,0 +1,6 @@
+drupal:
+    settings:
+        database_url: mysql://user:pass@localhost/db_name
+    ini: {}
+    include:
+        require_once: ["$DRUPAL_ROOT/../vendor/autoload.php"]
